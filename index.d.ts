@@ -1,11 +1,9 @@
-declare module 'react-native-slider' {
+declare module 'react-native-slider-web' {
   import { ComponentClass, PureComponent } from 'react'
 
   import {
     ImageSourcePropType,
-    SpringAnimationConfig,
     StyleProp,
-    TimingAnimationConfig,
     ViewStyle,
   } from 'react-native'
 
@@ -123,7 +121,7 @@ declare module 'react-native-slider' {
     /**
      * Used to configure the animation parameters.  These are the same parameters in the Animated library.
      */
-    animationConfig?: SpringAnimationConfig | TimingAnimationConfig
+    animationConfig?: any
   }
 
   const Slider: ComponentClass<SliderProps>
