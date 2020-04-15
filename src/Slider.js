@@ -7,7 +7,7 @@ import {
   PanResponder,
   View,
   Easing,
-  ViewPropTypes,
+  // ViewPropTypes,
   I18nManager
 } from "react-native";
 
@@ -115,22 +115,22 @@ export default class Slider extends PureComponent {
     /**
      * The style applied to the slider container.
      */
-    style: ViewPropTypes.style,
+    style: PropTypes.style,
 
     /**
      * The style applied to the track.
      */
-    trackStyle: ViewPropTypes.style,
+    trackStyle: PropTypes.style,
 
     /**
      * The style applied to the thumb.
      */
-    thumbStyle: ViewPropTypes.style,
+    thumbStyle: PropTypes.style,
 
     /**
      * Sets an image for the thumb.
      */
-    thumbImage: Image.propTypes.source,
+    thumbImage: PropTypes.string,
 
     /**
      * Set this to true to visually see the thumb touch rect in green.
