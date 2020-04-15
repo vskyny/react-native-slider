@@ -1,6 +1,6 @@
 {
   "name": "react-native-slider-web",
-  "version": "0.1.3",
+  "version": "0.13.0",
   "description": "A pure JavaScript <Slider /> component for react-native that works with the web",
   "main": "lib/Slider.js",
   "files": [
