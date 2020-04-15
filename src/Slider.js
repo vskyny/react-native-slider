@@ -7,7 +7,7 @@ import {
   PanResponder,
   View,
   Easing,
-  // ViewPropTypes,
+  // PropTypes,
   I18nManager
 } from "react-native";
 
