@@ -115,17 +115,17 @@ export default class Slider extends PureComponent {
     /**
      * The style applied to the slider container.
      */
-    style: PropTypes.style,
+    style: PropTypes.object,
 
     /**
      * The style applied to the track.
      */
-    trackStyle: PropTypes.style,
+    trackStyle: PropTypes.object,
 
     /**
      * The style applied to the thumb.
      */
-    thumbStyle: PropTypes.style,
+    thumbStyle: PropTypes.object,
 
     /**
      * Sets an image for the thumb.
